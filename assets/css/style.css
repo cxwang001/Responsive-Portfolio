@@ -237,27 +237,126 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 640px) {
   .sidebar {
     float: left;
-    width: 70%;
+    max-width: 250px;
+    margin-right: 0px;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
+  }
+  .work {
+    width: 100%;
+    float: inherit;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    
+    text-align: center;
+  /*  padding: 10px;*/
+  }
+  /*#main-container {
+    padding-top: 200px;
+  }*/
+}
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    min-width: 100%;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
+  }
+  footer {
+    margin-bottom: 10px;
+  }
+  #logo {
+    width: 100%;
+  }
+   nav {
+    float: inherit;
+    text-align: center;
+    padding: 10px;
+  }
+  #main-container {
+    padding-top: 200px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .sidebar {
+    min-width: 100%;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
+  }
+  footer {
+    margin-bottom: 10px;
+  }
+
+}
+Contact GitHub API Training Shop Blog About
+
+/*@media screen and (max-width: 980px) {*/
+/*  .sidebar {
+    float: left;
+   margin-left: 100px;
+}
+nav{
+  margin-right: 100px;
+}
+#logo{
+  margin-left: 100px;
+}
+.main-section{
+  width: 70%;
+  max-width: 400px;
+  margin-left: 100px;
+}
+.sidebar{
+  margin-left: 100px;
+}*/
+ /* .sidebar {
+    min-width: 100%;
+  }
+  .main-section {
+    margin-right: auto;
+    margin-left: auto;
+    float: inherit;
+    width: 85%;
+  }
+  footer {
+    margin-bottom: 10px;
   }
 } 
 
 @media screen and (max-width: 768px) {
  .sidebar {
-    float: left;
-    width: 70%;
+    float: left;*/
+    /*width: 70%;
   }
+ .logo{
+
+ }
+
 } 
 
 @media screen and (max-width: 640px) {
  .sidebar{
     float: left;
-    width: 70%;
-  }
+    /*width: 70%;*/
+/*  }*/
 
-  #masthead {
+  /*#masthead {
     position: static;
-  }
+  }*/
